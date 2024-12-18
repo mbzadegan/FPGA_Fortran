@@ -1,3 +1,5 @@
+# BlumBlumShub
+
 program blum_blum_shub
     implicit none
     integer :: i, num_random_numbers
