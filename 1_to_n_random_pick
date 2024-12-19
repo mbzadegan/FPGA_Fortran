@@ -1,0 +1,35 @@
+! Here is a Fortran program that continuously prompts the user for a positive integer, checks if the input is equal to 1 (in which case it ends), and otherwise generates a random number between 1 and the entered number. After each iteration, the program loops back to prompt for another input.
+
+
+program random_number_loop
+  implicit none
+  integRer :: n
+  integer :: random_num
+
+  ! Seed the random number generator
+  call random_seed()
+
+  ! Infinite loop to repeatedly ask for input
+  do
+    ! Input the positive integer number
+    print*, "Enter a positive integer (or 1 to exit):"
+    read*, n
+
+    ! Check if n is equal to 1, then end the program
+    if (n == 1) then
+      print*, "Program ends."
+      exit
+    end if
+
+    ! Check if the input number is positive
+    if (n <= 0) then
+      print*, "Please enter a positive integer greater than 0."
+    else
+      ! Output a random number between 1 and n
+      call random_number(random_num)
+      random_num = floor(random_num * real(n)) + 1
+      print*, "Random number between 1 and", n, "is", random_num
+    end if
+  end do
+
+end program random_number_loop
