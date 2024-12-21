@@ -1,3 +1,5 @@
+! 3 sorting methods
+
 program sort_compare
     implicit none
     integer, parameter :: n = 1000  ! Number of random numbers to sort
