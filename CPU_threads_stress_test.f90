@@ -1,5 +1,8 @@
 ! Here's a Fortran program to stress test the CPU, utilizing all cores and threads with OpenMP, and reporting the time consumed:
-
+! Compile it with OpenMP support:
+!        gfortran -fopenmp -o cpu_stress_test CPU_threads_stress_test.f90
+! Run the program:
+!        ./cpu_stress_test
 
 
 
