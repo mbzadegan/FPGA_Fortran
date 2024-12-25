@@ -7,7 +7,6 @@
 
 
 
-
 program sha256_file
     implicit none
     integer :: ios
