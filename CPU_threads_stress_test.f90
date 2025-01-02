@@ -6,7 +6,6 @@
 !        ./cpu_stress_test
 
 
-
 PROGRAM CPUSressTest
   USE omp_lib
   IMPLICIT NONE
