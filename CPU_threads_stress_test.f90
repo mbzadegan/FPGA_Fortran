@@ -1,7 +1,7 @@
 ! Here's a Fortran program to stress test the CPU, utilizing all cores and threads with OpenMP, and reporting the time consumed:
 ! You can change the max_iteration number on line 20
 ! Compile it with OpenMP support:
-!        gfortran -fopenmp -o cpu_stress_test CPU_threads_stress_test.f90
+!        gfortran -fopenmp -fno-range-check -o cpu_stress_test CPU_threads_stress_test.f90
 ! Run the program:
 !        ./cpu_stress_test
 
@@ -17,7 +17,7 @@ PROGRAM CPUSressTest
   INTEGER :: max_iterations
 
   ! Define number of iterations for the stress test
-  max_iterations = 1000000000  ! Adjust as needed for your test
+  max_iterations = 10000000000  ! Adjust as needed for your test
 
   ! Get clock rate (ticks per second)
   CALL SYSTEM_CLOCK(COUNT_RATE=clock_rate)
