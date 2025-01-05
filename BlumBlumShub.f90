@@ -1,4 +1,4 @@
-# BlumBlumShub
+# BlumBlumShub simulation
 
 program blum_blum_shub
     implicit none
