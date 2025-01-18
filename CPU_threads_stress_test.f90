@@ -1,7 +1,7 @@
 ! Here is a Fortran program to stress test the CPU, utilizing all cores and threads with OpenMP, and reporting the time consumed:
 ! You can change the max_iteration number on line 20
 ! Compile it with OpenMP support:
-!        gfortran -fopenmp -fno-range-check -o cpu_stress_test CPU_threads_stress_test.f90
+!        gfortran -fopenmp -fno-range-check -o CPU_threads_stress_test CPU_threads_stress_test.f90
 ! Run the program:
 !        ./cpu_stress_test
 ! You can install the latest gfortran release by installing the latest GCC. (GCC13 is the latest stable realease as of January 2025)
