@@ -81,6 +81,7 @@ contains
   end subroutine matmul_kernel
 
   ! GPU Matrix Multiplication Subroutine (Host)
+
   subroutine gpu_matrix_multiply(d_A, d_B, d_C, n)
     integer, value :: n
     real(8), dimension(n,n), device :: d_A, d_B, d_C
