@@ -1,4 +1,4 @@
-# The easiest ways to install official GNU Fortran in Windows
+# The easiest ways to install the official GNU Fortran in Windows
 
 ## By Octave installation
 The Octave software which is close to MATLAB is one of the easiest ways to install GFortran in Windows.
