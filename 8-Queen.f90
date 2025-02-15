@@ -1,4 +1,5 @@
 program eight_queens
+
   implicit none
   integer, parameter :: N = 8
   integer :: board(N), row
