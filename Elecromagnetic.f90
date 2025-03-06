@@ -13,6 +13,7 @@ PROGRAM TE_Mode_Solver
 
   ! Waveguide dimensions (meters)
   REAL(dp), PARAMETER :: a = 0.05_dp, b = 0.02_dp
+  
   ! Convergence parameters
   tol = 1.0D-6
   max_iter = 10000
