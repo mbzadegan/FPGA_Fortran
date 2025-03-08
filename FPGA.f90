@@ -1,4 +1,4 @@
-! This is a simple Fortran program that will communicate with an FPGA
+! This is a simple Fortran program that will communicate with an FPGA board
 ! via memory-mapped IO (via PCIe) or a similar interface.
 
 program fpga_interface
