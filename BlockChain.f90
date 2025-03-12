@@ -16,7 +16,7 @@ program blockchain
   type(block), dimension(max_blocks) :: chain
   integer :: num_blocks = 1
 
-  ! Initialize first block (Genesis block)
+  ! Initialize the first block (Genesis block)
   chain(1)%index = 1
   chain(1)%previous_hash = "0"
   call get_timestamp(chain(1)%timestamp)
