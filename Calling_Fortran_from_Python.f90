@@ -14,7 +14,7 @@ contains
     ! Initialize the result matrix C with zeros
     C = 0.0d0
 
-    ! Matrix multiplication: C = A * B
+    ! Calculate matrix multiplication: C = A * B
     do i = 1, n
       do j = 1, n
         do k = 1, n
