@@ -4,7 +4,7 @@ import ctypes
 # Load the Fortran shared library
 lib = ctypes.CDLL("./libmatrix_multiply.so")  # Or use libmatrix_multiply.dll on Windows
 
-# Define the function signature for the Fortran subroutine
+# Define the function signature for the Fortran subroutine:
 # The Fortran subroutine multiply_matrices(A, B, C, n) is of type:
 # subroutine multiply_matrices(A, B, C, n)
 #   - A, B, C are pointers to n x n matrices (arrays of floats)
