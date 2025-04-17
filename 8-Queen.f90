@@ -1,6 +1,3 @@
-
-
-
 program eight_queen
   implicit none
   integer, parameter :: n = 8
