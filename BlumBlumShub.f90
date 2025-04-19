@@ -1,6 +1,5 @@
 # Pseudo random number generator using the Blum Blum Shub algorithm.
 
-
 program blum_blum_shub
     implicit none
     integer :: i, num_random_numbers
