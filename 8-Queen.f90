@@ -1,4 +1,5 @@
 program eight_queen
+
   implicit none
   integer, parameter :: n = 8
   integer :: board(n), solutions
