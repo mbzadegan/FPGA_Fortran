@@ -1,6 +1,5 @@
 ! This Fortran program simulates a simple blockchain, generating blocks with an index, timestamp, and hash. It uses sha256sum from the shell to compute hashes.
 
-
 program blockchain
   use iso_fortran_env
   implicit none
