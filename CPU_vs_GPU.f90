@@ -1,5 +1,6 @@
 
 program matrix_multiplication_compare
+
   use cudafor
   implicit none
   
