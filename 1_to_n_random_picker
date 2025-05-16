@@ -10,7 +10,7 @@ program random_number_loop
 
   ! Infinite loop to repeatedly ask for input
   do
-    ! Input the positive integer number
+    ! Input a positive integer number
     print*, "Enter a positive integer (or 1 to exit):"
     read*, n
 
