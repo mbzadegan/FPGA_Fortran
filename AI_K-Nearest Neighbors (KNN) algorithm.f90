@@ -26,7 +26,7 @@ program knn_classifier
 
 contains
 
-  ! Function to predict the class of a point using K-Nearest Neighbors
+  ! Function to predict the class of a point using K-Nearest Neighbors.
   integer function knn_predict(test_point, training_data, training_labels, k)
     real, intent(in) :: test_point(num_features)
     real, intent(in) :: training_data(num_samples, num_features)
