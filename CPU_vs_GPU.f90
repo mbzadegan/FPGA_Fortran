@@ -12,7 +12,7 @@ program matrix_multiplication_compare
   ! Allocate matrices
   allocate(A(n,n), B(n,n), C_cpu(n,n), C_gpu(n,n))
   
-  ! Initialize matrices with random numbers
+  ! Initialize matrices with random numbers.
   call random_number(A)
   call random_number(B)
   
