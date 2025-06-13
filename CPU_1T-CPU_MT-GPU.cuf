@@ -2,7 +2,7 @@
 !     CPU Single-threaded
 !     OpenMP Multi-threaded
 !     CUDA (GPU-based)
-! This program initializes two random matrices, performs multiplication using the three methods, and then measures the execution time for each approach.
+! This program initializes two random matrices, performs multiplication using the three methods, and then measures the execution time for each approach
 
 module gpu_mat
   contains
