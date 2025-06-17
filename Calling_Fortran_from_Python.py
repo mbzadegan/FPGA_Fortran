@@ -1,7 +1,7 @@
 import numpy as np
 import ctypes
 
-# Load the Fortran shared library
+# Load the Fortran shared library.
 lib = ctypes.CDLL("./libmatrix_multiply.so")  # Or use libmatrix_multiply.dll on Windows
 
 # Define the function signature for the Fortran subroutine:
