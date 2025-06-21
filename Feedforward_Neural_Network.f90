@@ -1,6 +1,8 @@
-!Simulating an Artificial Intelligence (AI) system in Fortran is an interesting challenge. While Fortran isn't traditionally used for AI, its strength in numerical computations makes it suitable for implementing core components of AI, such as neural networks or optimization algorithms.
+!Simulating an Artificial Intelligence (AI) system in Fortran is an interesting challenge. 
+!While Fortran isn't traditionally used for AI, its strength in numerical computations makes it suitable for implementing core components of AI, such as neural networks or optimization algorithms.
 
-!Below is an example of a simple Feedforward Neural Network implemented in Fortran. The network includes one hidden layer and uses sigmoid activation. It can be trained using stochastic gradient descent (SGD) for tasks like binary classification.
+!Below is an example of a simple Feedforward Neural Network implemented in Fortran. 
+!The network includes one hidden layer and uses sigmoid activation. It can be trained using stochastic gradient descent (SGD) for tasks like binary classification.
 
 program simple_nn
   implicit none
