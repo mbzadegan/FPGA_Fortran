@@ -8,7 +8,7 @@ program eight_queen
   solutions = 0
   call solve_queens(board, 1, solutions)
 
-  print *, 'Total Solutions: ', solutions
+  print *, 'Total Solutions= ', solutions
 contains
 
   recursive subroutine solve_queens(board, row, solutions)
