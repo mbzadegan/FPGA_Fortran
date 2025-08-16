@@ -1,4 +1,4 @@
-! Here is a Fortran program that continuously prompts the user for a positive integer, checks if the input is equal to 1 (in which case it ends), and otherwise generates a random number between 1 and the entered number. After each iteration, the program loops back to prompt for another input.
+! Here is a Fortran program that continuously prompts the user for a positive integer, checks if the input is equal to 1 (in which case it ends) and otherwise generates a random number between 1 and the entered number. After each iteration, the program loops back to prompt for another input.
 
 program random_number_loop
   implicit none
