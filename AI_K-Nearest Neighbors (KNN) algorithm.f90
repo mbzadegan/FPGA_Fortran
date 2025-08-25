@@ -18,7 +18,7 @@ program knn_classifier
   ! Define the test point
   test_point = (/4.0, 3.0/)
 
-  ! Predict the class of the test point using KNN
+  ! Predict the class of the test point using KNN.
   prediction = knn_predict(test_point, training_data, training_labels, k)
   
   ! Output the prediction
