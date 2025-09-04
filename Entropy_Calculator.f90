@@ -1,6 +1,6 @@
 ! To calculate the entropy of a given binary file in Fortran, we need to compute the frequency of each byte value (0-255) and then use the Shannon entropy formula. 
 ! The program opens the binary file and reads its contents byte by byte.
-! It uses the mod(i, 256) + 1 expression to keep track of the frequency of each byte value (from 0 to 255).
+! It uses the mod(i, 256) + 1 expression to keep track of the frequency of each byte value (from 0 to 255)
 
 
 program calculate_entropy
