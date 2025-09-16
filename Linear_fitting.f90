@@ -1,6 +1,5 @@
 ! Fortran Code for Linear Curve Fitting by input 2xn matrix
 
-
 program curve_fitting
   implicit none
   integer :: i, n
