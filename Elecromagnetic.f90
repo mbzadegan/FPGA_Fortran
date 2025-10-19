@@ -1,6 +1,5 @@
 ! Here’s a Fortran code example to solve a problem of calculating the eigenvalues and eigenfunctions of TE (Transverse Electric) modes in a rectangular waveguide using the finite difference method (FDM).
 
-
 ! Program: TE_Mode_Solver.f90
 ! Purpose: Calculate TE modes in a rectangular waveguide using FDM
 PROGRAM TE_Mode_Solver
