@@ -2,7 +2,7 @@ import numpy as np
 import ctypes
 
 # Load the Fortran shared library
-lib = ctypes.CDLL("./libmatrix_multiply.so")  # Or use libmatrix_multiply.dll on Windows
+lib = ctypes.CDLL("./libmatrix_multiply.so")  # Or use libmatrix_multiply.dll on the MS. Windows
 
 # Define the function signature for the Fortran subroutine:
 # The Fortran subroutine multiply_matrices(A, B, C, n) is of type:
