@@ -7,7 +7,6 @@
 PROGRAM ProgramName
   IMPLICIT NONE
   ! Variable declarations
-
   ! Code
 
 END PROGRAM ProgramName
