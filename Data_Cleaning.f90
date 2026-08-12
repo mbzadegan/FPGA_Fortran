@@ -30,7 +30,7 @@ program data_cleaning
 
     open(unit=20, file=output_file, status="replace", action="write", iostat=iostat)
     if (iostat /= 0) then
-        print *, "Error opening output file."
+        print *, "Error in opening output file."
         stop
     end if
 
